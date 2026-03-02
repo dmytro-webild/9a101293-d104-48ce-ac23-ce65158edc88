@@ -20,7 +20,7 @@ export default function LandingPage() {
       borderRadius="rounded"
       contentWidth="small"
       sizing="largeSmallSizeLargeTitles"
-      background="aurora"
+      background="circleGradient"
       cardStyle="gradient-bordered"
       primaryButtonStyle="double-inset"
       secondaryButtonStyle="solid"
@@ -50,7 +50,7 @@ export default function LandingPage() {
             { text: "Explore Our Work", href: "products" },
             { text: "Learn More", href: "about" }
           ]}
-          background={{ variant: "aurora" }}
+          background={{ variant: "sparkles-gradient" }}
           imageSrc="http://img.b2bpic.net/free-photo/modern-office-space-with-futuristic-decor-furniture_23-2151797631.jpg"
           imageAlt="Webild Studio showcase"
           frameStyle="card"
@@ -82,10 +82,10 @@ export default function LandingPage() {
               id: "1",              name: "Web Design",              price: "Premium",              imageSrc: "http://img.b2bpic.net/free-photo/beautiful-still-life-arrangement-with-water_23-2149176107.jpg",              imageAlt: "Web design service"
             },
             {
-              id: "2",              name: "Brand Identity",              price: "Signature",              imageSrc: "http://img.b2bpic.net/free-photo/stacked-aesthetic-objects-still-life_23-2150230633.jpg?_wi=1",              imageAlt: "Brand identity design"
+              id: "2",              name: "Brand Identity",              price: "Signature",              imageSrc: "http://img.b2bpic.net/free-photo/stacked-aesthetic-objects-still-life_23-2150230633.jpg",              imageAlt: "Brand identity design"
             },
             {
-              id: "3",              name: "Digital Strategy",              price: "Professional",              imageSrc: "http://img.b2bpic.net/free-photo/stacked-aesthetic-objects-still-life_23-2150230633.jpg?_wi=2",              imageAlt: "Strategic digital consulting"
+              id: "3",              name: "Digital Strategy",              price: "Professional",              imageSrc: "http://img.b2bpic.net/free-photo/stacked-aesthetic-objects-still-life_23-2150230633.jpg",              imageAlt: "Strategic digital consulting"
             }
           ]}
           gridVariant="three-columns-all-equal-width"
@@ -170,7 +170,7 @@ export default function LandingPage() {
           title="Ready to elevate your brand?"
           description="Let's discuss how Webild can transform your digital presence. Contact our team today to schedule a consultation."
           tagIcon={Sparkles}
-          background={{ variant: "aurora" }}
+          background={{ variant: "sparkles-gradient" }}
           useInvertedBackground={false}
           inputPlaceholder="your@email.com"
           buttonText="Contact Us"
